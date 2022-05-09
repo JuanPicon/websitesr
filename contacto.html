@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/redes-sociales.css">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="css/forms.css">
+    <title>Sr.Recriuter | Contacto</title>
+    <link rel="shortcut icon" href="img/SR_ICON.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="social-bar" title="Ir arriba">
+        <a href="#">
+            <ion-icon class="icon_bar icon_flechas" name="arrow-up-circle-outline"></ion-icon>
+            <a href="#fin_pagina" title="Ir abajo">
+                <ion-icon class="icon_bar icon_flechas" name="arrow-down-circle-outline"></ion-icon>
+            </a>
+    </div>
+
+    <header class="informativo">
+        <nav class="contenedor_nav">
+            <div class="navbar2">
+                <img class="logo_nav" src="img/SR logo normal.png" alt="">
+            </div>
+
+            <div class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="clientes.html">Clientes</a></li>
+                    <li><a href="contacto.html">Contactanos</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="contenedorforms">
+            <form action="https://formspree.io/f/xyyowngk" method="POST">
+                <div class="contenedor_cambiante_forms">
+                    <h3>Redactanos tu </h3>
+                    <ul>
+                        <li>idea</li>
+                        <li>opinión</li>
+                        <li>comentario</li>
+                    </ul>
+                </div>
+                <label for="nombre">Nombre</label>
+                <input type="text" name=" " id="nombre" placeholder="Ingresa tu nombre" required>
+                <label for="email">E-mail</label>
+                <input type="email" name=" " id="email" placeholder="Ingresa tu correo" required>
+                <label for="telefono">Teléfono celular</label>
+                <input type="text" name=" " id="telefono" placeholder="Ingresa tu telefono" required>
+
+                <!--El siguiente atributo esta oculto y es para definir el
+                asunto de tu correo-->
+                <input type="hidden" name="_subject " value="Escrito desde la página web" />
+
+                <!--El siguiente campo es por seguridad para evitar spam, esta oculto
+                para el usuario pero no para para el bot que lo acabara rellenando
+                cuando formspree detecte este campo llenado lo mandará directamente
+                a tu carpeta de spam-->
+                <input type="text" name="_gotcha" style="display:none" />
+
+                <label for="mensaje">Platicanos</label>
+                <textarea name=" " id="mensaje " rows="4 " placeholder="Escribe tu mensaje"></textarea>
+                <button type="submit ">ENVIAR</button>
+                <label class="terminos-condiciones"><input type="checkbox" name="acepto" value="Acepto los terminos de la politica de privacidad"> Aceptar política de privacidad</label>
+                <a href="politica-privacidad.html">Ver política de privacidad</a>
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="iconos_footer">
+            <li>
+                <a href="https://www.facebook.com/Sr-Recriuter-103489744402701" target="_blank">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+            </li>
+            <li>
+                <a href="https://wa.me/528111053969?text=Hola%20mucho%20gusto,%20necesito%20información!" target="_blank">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/srrecriuter/" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+        </ul>
+        <ul class="menu_footer">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="cientes.html">Clientes</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+        <p>Todos los derechos reservados ©</p>
+        <p id="fin_pagina">Sr. Recriuter ®</p>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
