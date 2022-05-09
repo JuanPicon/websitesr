@@ -1,0 +1,63 @@
+/* Header */
+
+header.informativo {
+    width: 100%;
+    height: 260px;
+    position: cover;
+    background: url(../img/monterrey.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: -220%;
+}
+
+header {
+    width: 100%;
+    height: cover;
+    position: static;
+}
+
+.load {
+    animation: slide 2s;
+}
+
+.slider {
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    animation: slide 22s infinite alternate ease-in-out;
+}
+
+@keyframes slide {
+    0% {
+        background-image: url(../img/EQUIPO.jpg);
+    }
+    50% {
+        background-image: url(../img/BOXEO.jpg);
+    }
+    75% {
+        background-image: url(../img/EQUIPO2.jpg);
+    }
+    100% {
+        background-image: url(../img/EQUIPO_FUTBOL.jpg);
+    }
+}
+
+header .textos-header {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.textos-header h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    color: #fff;
+    text-shadow: 2px 2px 2px black;
+}

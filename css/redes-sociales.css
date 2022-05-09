@@ -1,0 +1,31 @@
+.social-bar {
+    position: fixed;
+    right: 0;
+    margin-right: 10px;
+    top: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 102;
+}
+
+.icon_bar {
+    font-size: 250%;
+    overflow: hidden;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    transition: all .4s;
+}
+
+.icon_flechas {
+    border-radius: 100px;
+    background: black;
+}
+
+.icon_bar:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
