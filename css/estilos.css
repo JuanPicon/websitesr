@@ -1,4 +1,4 @@
-    * {
+ * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -16,6 +16,15 @@
         overflow: hidden;
     }
     
+    body::-webkit-scrollbar{
+        width: 10px;
+    }
+
+    body::-webkit-scrollbar-thumb{
+        background: #5c0d06;
+        border-radius: 10px;
+    }
+
     .seccion1 {
         text-align: justify;
         font-size: 18px;
@@ -243,55 +252,55 @@
     }
     
     .cliente10 {
-        background-image: url(../img/vendedor.jpg);
+        background-image: url(../img/fabrica1.jpg);
         background-size: cover;
         background-position-x: 60%;
     }
     
     .cliente20 {
-        background-image: url(../img/vendedor.jpg);
+        background-image: url(../img/fabrica3.jpg);
         background-size: cover;
         background-position-x: 60%;
     }
     
     .cliente30 {
-        background-image: url(../img/vendedor.jpg);
+        background-image: url(../img/fabrica2.jpg);
         background-size: cover;
         background-position-x: 60%;
     }
     
     .cliente40 {
-        background-image: url(../img/vendedor.jpg);
+        background-image: url(../img/admin1.jpg);
         background-size: cover;
         background-position-x: 60%;
     }
     
     .cliente50 {
-        background-image: url(../img/vendedor.jpg);
+        background-image: url(../img/admin2.jpg);
         background-size: cover;
         background-position-x: 60%;
     }
     
     .cliente60 {
-        background-image: url(../img/vendedor.jpg);
+        background-image: url(../img/admin3.jpg);
         background-size: cover;
         background-position-x: 60%;
     }
     
     .cliente70 {
-        background-image: url(../img/vendedor.jpg);
+        background-image: url(../img/alto1.jpg);
         background-size: cover;
         background-position-x: 60%;
     }
     
     .cliente80 {
-        background-image: url(../img/vendedor.jpg);
+        background-image: url(../img/alto2.jpg);
         background-size: cover;
         background-position-x: 60%;
     }
     
     .cliente90 {
-        background-image: url(../img/vendedor.jpg);
+        background-image: url(../img/alto3.jpg);
         background-size: cover;
         background-position-x: 60%;
     }
@@ -433,3 +442,5 @@
             margin: 15px;
         }
     }
+
+    
